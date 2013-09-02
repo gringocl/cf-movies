@@ -1,6 +1,8 @@
 <h1>Movies!</h1>
 <p>The most first movie is: <%= @first %></p>
 <p>It has <%= @first_votes %> votes!</p>
+<br>
+<p><%= link_to "View list of all Movies!", movies_path %></p>
 
 <h2>My Favorite</h2>
 <p>My favorite movie is <%= @my_favorite.title %>.</p>
